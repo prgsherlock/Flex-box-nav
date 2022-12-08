@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <style>
+    *{
+      box-sizing:border-box; 
+      margin:0; 
+      padding:0 ; 
+      }
+    body{
+      font-family: 'Roboto', sans-serif ; 
+      background-color:rgb(236, 236, 179); 
+      font-stretch:extra-expanded;     
+      
+    }
+    .container{
+      max-width: 700px;
+      background-color:antiquewhite; 
+      margin:20px auto; 
+      border-radius:5px; 
+      min-height:100vh; 
+      display:flex ;
+      justify-content:center; 
+      align-items:center; 
+    }
+    a{
+      text-decoration: none;
+      color:white; 
+    }
+    .navbar li { 
+      list-style:none; 
+    }
+    .navbar{
+      width:350px;  
+      height:70px;
+      border:3px solid orange;
+      border-radius: 5px;
+      display:flex;     
+            
+    }
+    .item {  
+        
+      font-size:1.4rem ; 
+      font-weight: bold;
+      /* for text */
+      display:flex; 
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .item1{
+      width:50%; 
+      height:100%;
+      background-color:rgb(143, 226, 226);
+     
+    }
+    .item1:hover{
+      background-color:rgb(110, 238, 238);
+    }
+    .item2{
+      width:50%; 
+      height:100%;
+      background-color:rgb(243, 125, 82);
+      flex-grow:0; 
+    }
+    
+    .item2:hover{
+      background-color:rgb(255, 102, 46); 
+    }
+  </style>
+  <title>small nav-bar</title>
+</head>
+<body>
+  <div class="container">
+    <ul class="navbar">
+      <li class="item item1"><a href="#">Home</a></li>
+      <li class="item item2"><a href="#">Logout</a></li>
+    </ul>    
+  </div>
+</body>
+</html>
